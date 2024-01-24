@@ -6,10 +6,11 @@ app.use(express.json());
 
 // MySQL database connection
 const db = mysql.createConnection({
-    host: 'localhost',
+    host: 'roundhouse.proxy.rlwy.net',
     user: 'root',
-    password: 'W3vG0*>fyash',
-    database: 'backlight2'
+    password: 'dBb61Cdag4CcaaHaBG43hdBDabcH1b6F',
+    database: 'railway',
+    port: '40238'
 });
 
 // Connect to MySQL
